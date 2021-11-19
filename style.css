@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(128, 144, 160);
+}
+.question-Block {
+    background-color: rgb(247, 247, 247);
+    border-radius: 7px;
+    box-shadow: rgba(0,0,0,0.3) 3px 5px;
+    text-align: center;
+    padding: 3px;
+    height: 500px;
+}
+.question-Block > span > h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(167, 71, 167);
+}
+.quest {
+    height: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 255, 231);
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+#quest-Box {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn {
+    padding: 8px;
+}
+.btn > input[type=button] {
+    border: none;
+    background-color: rgb(145, 61, 138);
+    padding: 10px;
+    width: 100px;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.answer {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    row-gap: 20px;
+    grid-template-columns: max-content max-content;
+}
+
+.answer > p > input[type=radio] {
+    position: relative;
+    float: left;
+    top: 1px;
+}
+.answer > p {
+    text-align: left;
+    position: relative;
+    top: -16px;
+}
